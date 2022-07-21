@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(7, 78, 7);
+  text-align: center;
+}
+h1 {
+  font-size: 50px;
+  color: gold;
+  text-align: center;
+}
+#message {
+  text-align: center;
+  color: aliceblue;
+  font-style: oblique;
+}
+#sum {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: aliceblue;
+}
+#card {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: aliceblue;
+}
+button {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(245, 249, 253);
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  border: none;
+  background-color:rgb(243, 243, 19);
+}
+button:active {
+  transform:scale(0.9);
+  box-shadow: (3,5,7,8);
+}
